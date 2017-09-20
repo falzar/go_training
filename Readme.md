@@ -4,7 +4,7 @@ This repository is a compilation of Go exercises in the road of learning
 
 ### Tech
 
-* [Go] -  Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. Version 1.9.
+* [Go] -  Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. Version 1.9. **Go is not an Object Oriented Language**.
 * [Visual Studio Code] - isual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. Version 1.16.
 
 ### Installation
@@ -43,6 +43,8 @@ Set up the editor
 
 
 ### List of exercises
+
++ **cards/deck.go**: Shows an aproximation of Object Oriented on Go. Define a type and functions with a receiver.
 
 ### TODO
 
