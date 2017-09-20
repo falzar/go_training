@@ -4,7 +4,7 @@ This repository is a compilation of Go exercises in the road of learning
 
 ### Tech
 
-* [Go] -  Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. Version 1.9. **Go is not an Object Oriented Language**.
+* [Go] -  Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. Version 1.9. **Go is not an Object Oriented Language**. Is a statically typed language.
 * [Visual Studio Code] - isual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. Version 1.16.
 
 ### Installation
@@ -44,12 +44,14 @@ Set up the editor
 
 ### List of exercises
 
-+ **cards/deck.go**: Shows an aproximation of Object Oriented on Go. Define a type and functions with a receiver.
++ **cards/main.go**: Shows Slice definition, subslice, function definition, "instance" calls. Shows how to receive two values return from a function.
++ **cards/deck.go**: Shows an aproximation of Object Oriented on Go. Define a type and functions with a receiver. Contains functions that returns multiple values. Contains for loop use. I/O operations. Type conversion. Use of _strings_ package. Error handling. _OS_ package use. _rand_ package use. One line swap for slice. _time_ package use.
 
 ### TODO
 
 ### Useful links
 
++ Udemy course -> [Go: The Complete Developer's Guide (Golang)]
 
 License
 ----
@@ -85,3 +87,4 @@ SOFTWARE.
    [Visual Studio Code]: <https://code.visualstudio.com/>
    [Setting GOPATH]: <https://github.com/golang/go/wiki/Setting-GOPATH>
    [Packages Documentation]: <https://golang.org/pkg/>
+   [Go: The Complete Developer's Guide (Golang)]: <https://www.udemy.com/go-the-complete-developers-guide/learn/v4/overview>
