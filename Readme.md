@@ -31,11 +31,12 @@ Set up the editor
 + install ***gocode*** with `go get -v github.com/nsf/gocode`
 + Open a `.go` file with editor, you can see on the bottom side the words `Analysis Tools Missing`. Click over this text and install missing tools.
 
-### Compile
+### Compile, run and test
 
 + To compile a _.go_ file use `go build` on file's folder
 + To run compiled file `./<name>`
 + To just run use `go run <name>.go` over ***executable packages***
++ To run tests, go to `test` file and run `go test` 
 
 ### Install Packages
 
@@ -46,6 +47,7 @@ Set up the editor
 
 + **cards/main.go**: Shows Slice definition, subslice, function definition, "instance" calls. Shows how to receive two values return from a function.
 + **cards/deck.go**: Shows an aproximation of Object Oriented on Go. Define a type and functions with a receiver. Contains functions that returns multiple values. Contains for loop use. I/O operations. Type conversion. Use of _strings_ package. Error handling. _OS_ package use. _rand_ package use. One line swap for slice. _time_ package use.
++ **cards/deck_test.go**: Testing exercises with go.
 
 ### TODO
 

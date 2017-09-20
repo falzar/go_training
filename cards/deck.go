@@ -19,7 +19,7 @@ func newDeck() deck {
 	cards := deck{}
 
 	cardsSuits := []string{"Spades", "Diamonds", "Hearts", "Clubs"}
-	cardsValues := []string{"Ace", "Two", "Three", "four"}
+	cardsValues := []string{"Ace", "Two", "Three", "Four"}
 
 	// When there is a variable that we will not use but we need to skip, use "_"
 	for _, suit := range cardsSuits {
