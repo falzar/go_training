@@ -15,6 +15,9 @@ func main() {
 	//Slice
 	cards := []string{"Ace of Spades", newCard()}
 
+	//Slice creates two elements: an array and a struct with three elements: length, capacity and a pointer to the head of the array
+	//Slice is a data structure that pass by reference on functions.
+
 	// Adding elements to slice
 	cards = append(cards, "Six of Hearts")
 

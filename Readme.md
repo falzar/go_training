@@ -48,12 +48,15 @@ Set up the editor
 + **cards/main.go**: Shows Slice definition, subslice, function definition, "instance" calls. Shows how to receive two values return from a function.
 + **cards/deck.go**: Shows an aproximation of Object Oriented on Go. Define a type and functions with a receiver. Contains functions that returns multiple values. Contains for loop use. I/O operations. Type conversion. Use of _strings_ package. Error handling. _OS_ package use. _rand_ package use. One line swap for slice. _time_ package use.
 + **cards/deck_test.go**: Testing exercises with go.
++ **even_detector/main.go**: Test of slice and for loop.
++ **structs/main.go**: Creation and example of structs. Information about receiver functions. Pointers.
 
 ### TODO
 
 ### Useful links
 
 + Udemy course -> [Go: The Complete Developer's Guide (Golang)]
++ interactive go -> [The Go Playground]
 
 License
 ----
@@ -90,3 +93,4 @@ SOFTWARE.
    [Setting GOPATH]: <https://github.com/golang/go/wiki/Setting-GOPATH>
    [Packages Documentation]: <https://golang.org/pkg/>
    [Go: The Complete Developer's Guide (Golang)]: <https://www.udemy.com/go-the-complete-developers-guide/learn/v4/overview>
+   [The Go Playground]: <https://play.golang.org>
