@@ -53,6 +53,7 @@ Set up the editor
 + **interfaces_chatbots/main.go**: Interfaces basics.
 + **interfaces\_http/main.go**: Use of _net_, _http_ packages use and imoplementation/use of the _Writer_ and _Reader_ interfaces.
 + **interfaces\_printfile/main.go**: Use of _os_ and _io_ packages use and use of the _Writer_ and _Reader_ interfaces.
++ **web_status_checker/main.go**: Principles of paralell programming, "Routines", "Chanels", Sleep function, function literals.
 
 ### TODO
 
