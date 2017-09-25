@@ -8,11 +8,12 @@ import (
 // Interfaces are not generic types
 // Interfaces implementation are implicit
 // Interface definition
+// Interfaces can contain other interfaces
 type bot interface {
 	getGreeting() string // function requiered to implement the interface
 	// function inside interface can use multiple argument types and return types
 	// getGreetings(typeA, tupeB)           (typeX, TypeY)
-	//             list of argument types   list of return
+	//             list of argument types   list of return types
 
 	// The type that want to implement it has to implement every functions inside the interface
 }

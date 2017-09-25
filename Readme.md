@@ -50,6 +50,9 @@ Set up the editor
 + **cards/deck_test.go**: Testing exercises with go.
 + **even_detector/main.go**: Test of slice and for loop.
 + **structs/main.go**: Creation and example of structs. Information about receiver functions. Pointers.
++ **interfaces_chatbots/main.go**: Interfaces basics.
++ **interfaces\_http/main.go**: Use of _net_, _http_ packages use and imoplementation/use of the _Writer_ and _Reader_ interfaces.
++ **interfaces\_printfile/main.go**: Use of _os_ and _io_ packages use and use of the _Writer_ and _Reader_ interfaces.
 
 ### TODO
 
