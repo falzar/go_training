@@ -23,7 +23,7 @@ for development on ***VS Code*** over macOS X Sierra:
 
 + Download insiders version of [Visual Studio Code] so we have newest features.
 + Unzip the folder and then move to Applications folder
-+ You can create s symbolic link of the workspace to any folder you need work with `ln -s $HOME/go`
++ You can create a symbolic link of the workspace to any folder you need work with `ln -s $HOME/go`
 
 Set up the editor
 
