@@ -4,7 +4,7 @@ This repository is a compilation of Go exercises in the road of learning
 
 ### Tech
 
-* [Go] -  Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. Version 1.9. **Go is not an Object Oriented Language**. Is a statically typed language.
+* [Go] -  Go is an open source programming language that makes it easy to build simple, reliable, and efficient software. Version 1.9. **Go is not an Object Oriented Language**. Is a statically typed language. 
 * [Visual Studio Code] - isual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. Version 1.16.
 
 ### Installation
@@ -54,6 +54,7 @@ Set up the editor
 + **interfaces\_http/main.go**: Use of _net_, _http_ packages use and imoplementation/use of the _Writer_ and _Reader_ interfaces.
 + **interfaces\_printfile/main.go**: Use of _os_ and _io_ packages use and use of the _Writer_ and _Reader_ interfaces.
 + **web_status_checker/main.go**: Principles of paralell programming, "Routines", "Chanels", Sleep function, function literals.
+**go_web/templates/main.go**: Shows how to read and send messages and data structures to templates. Templates functions.
 
 ### TODO
 
@@ -61,6 +62,9 @@ Set up the editor
 
 + Udemy course -> [Go: The Complete Developer's Guide (Golang)]
 + interactive go -> [The Go Playground]
++ Todd McLeod go training -> [GoesToEleven]
++ Todd McLeod go web training -> [GoesToEleven web]
+
 
 License
 ----
@@ -98,3 +102,5 @@ SOFTWARE.
    [Packages Documentation]: <https://golang.org/pkg/>
    [Go: The Complete Developer's Guide (Golang)]: <https://www.udemy.com/go-the-complete-developers-guide/learn/v4/overview>
    [The Go Playground]: <https://play.golang.org>
+   [GoesToEleven]:<https://github.com/GoesToEleven/GolangTraining>
+   [GoesToEleven web]:<https://github.com/GoesToEleven/golang-web-dev>
