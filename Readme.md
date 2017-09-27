@@ -51,10 +51,10 @@ Set up the editor
 + **even_detector/main.go**: Test of slice and for loop.
 + **structs/main.go**: Creation and example of structs. Information about receiver functions. Pointers.
 + **interfaces_chatbots/main.go**: Interfaces basics.
-+ **interfaces\_http/main.go**: Use of _net_, _http_ packages use and imoplementation/use of the _Writer_ and _Reader_ interfaces.
++ **interfaces\_http/main.go**: Use of _net_, _http_ packages use and implementation/use of the _Writer_ and _Reader_ interfaces.
 + **interfaces\_printfile/main.go**: Use of _os_ and _io_ packages use and use of the _Writer_ and _Reader_ interfaces.
 + **web_status_checker/main.go**: Principles of paralell programming, "Routines", "Chanels", Sleep function, function literals.
-**go_web/templates/main.go**: Shows how to read and send messages and data structures to templates. Templates functions.
++ **go_web/templates/main.go**: Shows how to read and send messages and data structures to templates. Templates functions.
 
 ### TODO
 
@@ -64,6 +64,7 @@ Set up the editor
 + interactive go -> [The Go Playground]
 + Todd McLeod go training -> [GoesToEleven]
 + Todd McLeod go web training -> [GoesToEleven web]
++ The template package documentation -> [Template Package Documentation]
 
 
 License
@@ -104,3 +105,4 @@ SOFTWARE.
    [The Go Playground]: <https://play.golang.org>
    [GoesToEleven]:<https://github.com/GoesToEleven/GolangTraining>
    [GoesToEleven web]:<https://github.com/GoesToEleven/golang-web-dev>
+   [Template Package Documentation]: <https://golang.org/pkg/text/template/>

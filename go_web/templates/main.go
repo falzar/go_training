@@ -29,7 +29,17 @@ var gtpl *template.Template
 func init() {
 	// gtpl = template.Must(template.ParseFiles("go_web/templates/templates/tpl.gohtml", "go_web/templates/templates/wisdom.gohtml"))
 	// gtpl = template.Must(template.ParseGlob("go_web/templates/templates/*.gohtml"))
+
+	// IRC, template functions map must be defined by .Funcs before parsing the template.
+	// Global template parse. parse all .gohtml files in folder go_web/templates/templates/
+	// .New creates a new empty template
 	gtpl = template.Must(template.New("").Funcs(fm).ParseGlob("go_web/templates/templates/*.gohtml")) //To insert funtions on templates
+}
+
+func firstThree(s string) string {
+	s = strings.TrimSpace(s)
+	s = s[:3]
+	return s
 }
 
 func main() {
@@ -49,8 +59,8 @@ func main() {
 	`
 	fmt.Println(tpl1)
 
-	// Template from file. Parse all files .gohtml inide a folder
-	tpl2, err := template.ParseGlob("go_web/templates/templates/*.gohtml")
+	// Template from file. Parse all listed files
+	tpl2, err := template.ParseFiles("go_web/templates/templates/tpl.gohtml")
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -108,10 +118,10 @@ func main() {
 	if err != nil {
 		log.Fatalln(err)
 	}
-}
 
-func firstThree(s string) string {
-	s = strings.TrimSpace(s)
-	s = s[:3]
-	return s
+	// Uses fm functions inside this template
+	err = gtpl.ExecuteTemplate(os.Stdout, "functions.gohtml", r)
+	if err != nil {
+		log.Fatalln(err)
+	}
 }
