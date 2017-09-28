@@ -55,6 +55,10 @@ Set up the editor
 + **interfaces\_printfile/main.go**: Use of _os_ and _io_ packages use and use of the _Writer_ and _Reader_ interfaces.
 + **web_status_checker/main.go**: Principles of paralell programming, "Routines", "Chanels", Sleep function, function literals.
 + **go_web/templates/main.go**: Shows how to read and send messages and data structures to templates. Templates functions.
++ **go\_web/templates/date\_formatting/main.go**: Show how to use properly date values on templates and pass functions from code to templates. Package _time_ use.
++ **go\_web/templates/pipeline/main.go**: Show how to use pipeline to chain functions on templates.
++ **go\_web/templates/nested/main.go**: Show how to use templates inside other templates.
++ **go\_web/templates/methods/main.go**: Show how to use struct methods inside templates.
 
 ### TODO
 
@@ -64,7 +68,7 @@ Set up the editor
 + interactive go -> [The Go Playground]
 + Todd McLeod go training -> [GoesToEleven]
 + Todd McLeod go web training -> [GoesToEleven web]
-+ The template package documentation -> [Template Package Documentation]
++ The template package documentation. Also important to see predefined global function built in  -> [Template Package Documentation]
 
 
 License
